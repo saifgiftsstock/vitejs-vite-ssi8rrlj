@@ -455,7 +455,7 @@ export default function App() {
                 setWebAppUrl(e.target.value);
                 localStorage.setItem('sheetWebAppUrl', e.target.value);
               }}
-              placeholder="https://script.google.com/macros/s/.../exec"
+              placeholder="https://script.google.com/macros/s/AKfycbwaMivA5gLLAIepLbAvgzHnTDb7CT4KksyMQHxPMtN5-VlzfhOELaugndgtPZsiufCY/exec"
               style={{
                 padding: '10px',
                 borderRadius: '4px',
