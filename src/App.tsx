@@ -34,7 +34,7 @@ export default function App() {
   const handleSyncRow = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (GOOGLE_SCRIPT_URL === "https://script.google.com/macros/s/AKfycby9We64QxauXG7oEDprIAihbu9NPHK82iWetTFaZns4SWJvSqxKfzBM6S0UMY_AcSZ_/exec") {
+    if (GOOGLE_SCRIPT_URL === "PASTE_YOUR_WEB_APP_URL_HERE") {
       showToast('Please configure the GOOGLE_SCRIPT_URL at the top of the code first.', 'error');
       return;
     }
