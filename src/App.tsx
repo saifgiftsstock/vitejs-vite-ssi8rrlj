@@ -173,7 +173,7 @@ export default function App() {
               transition: 'background-color 0.2s'
             }}
           >
-            {loading ? <UploadCloud size={20} className="animate-pulse" /> : <Plus size={20} />}
+            {loading ? <UploadCloud size={21} className="animate-pulse" /> : <Plus size={20} />}
             {loading ? 'Syncing to Google Sheet...' : 'Sync Record to Sheet'}
           </button>
         </form>
