@@ -33,11 +33,8 @@ export default function App() {
 
   const handleSyncRow = async (e: React.FormEvent) => {
     e.preventDefault();
-
-    if (GOOGLE_SCRIPT_URL === "PASTE_YOUR_WEB_APP_URL_HERE") {
-      showToast('Please configure the GOOGLE_SCRIPT_URL at the top of the code first.', 'error');
-      return;
-    }
+    setLoading(true);
+    
     if (!newItem.id || !newItem.name) {
       showToast('Item ID and Product Name are required.', 'error');
       return;
